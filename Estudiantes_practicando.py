@@ -24,3 +24,12 @@ elif opcion == 2:
             return num + naturales(num-1)
     num = int(input("Ingrese numero: "))
     print(naturales(num))
+elif opcion == 3:
+    def cuenta(n):
+        if n == 0:
+            return 0
+        else:
+            print(n)
+            return n + cuenta(n-1)
+    n = int(input("Ingrese el numero para iniciar la cuenta regresiva: "))
+    cuenta = cuenta(n)
