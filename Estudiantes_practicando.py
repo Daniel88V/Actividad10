@@ -16,3 +16,11 @@ if opcion == 1:
     inversion = input("Ingrese la palabra que desea invertir: ")
     palabra_invertida = invertida(inversion)
     print(f"La palabra {inversion} de forma invertida es: {palabra_invertida}")
+elif opcion == 2:
+    def naturales(num):
+        if num == 0:
+            return 0
+        else:
+            return num + naturales(num-1)
+    num = int(input("Ingrese numero: "))
+    print(naturales(num))
