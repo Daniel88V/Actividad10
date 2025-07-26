@@ -36,6 +36,14 @@ elif opcion == 3:
 elif opcion == 4:
     print("Codigo en proceso...")
 elif opcion == 5:
+    def conteo(numero):
+        if numero < 10:
+            return 1
+        else:
+
+
+"""
     numero = input("Ingrese un numero: ")
     digitos = len(numero)
     print(f"El número posee {digitos} digitos")
+"""
