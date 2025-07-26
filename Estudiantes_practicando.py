@@ -33,3 +33,7 @@ elif opcion == 3:
             return n + cuenta(n-1)
     n = int(input("Ingrese el numero para iniciar la cuenta regresiva: "))
     cuenta = cuenta(n)
+elif opcion == 4:
+    print("Codigo en proceso...")
+elif opcion == 5:
+    def cantidad_digitos()
