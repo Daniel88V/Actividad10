@@ -44,9 +44,3 @@ elif opcion == 5:
     numero = input("Ingrese el numero: ")
     digitos = conteo(numero)
     print(f"La cantidad de digitos en el numero {numero} es: {digitos}")
-
-"""
-    numero = input("Ingrese un numero: ")
-    digitos = len(numero)
-    print(f"El número posee {digitos} digitos")
-"""
